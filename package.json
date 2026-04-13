@@ -21,7 +21,8 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "nuke": "turbo run clean && rm -rf node_modules pnpm-lock.yaml && pnpm install",
     "deps:check": "pnpm outdated --recursive",
-    "deps:update": "pnpm update --recursive --interactive"
+    "deps:update": "pnpm update --recursive --interactive",
+    "check:all": "turbo run lint typecheck test"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
