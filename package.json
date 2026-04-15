@@ -43,6 +43,8 @@
     "semi": false,
     "singleQuote": true,
     "printWidth": 100,
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "bracketSpacing": true
   }
 }
