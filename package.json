@@ -38,5 +38,11 @@
     "node": ">=20.0.0",
     "pnpm": ">=8.15.0"
   },
-  "packageManager": "pnpm@8.15.1"
+  "packageManager": "pnpm@8.15.1",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 100,
+    "trailingComma": "all"
+  }
 }
