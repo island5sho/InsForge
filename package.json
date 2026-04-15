@@ -24,7 +24,8 @@
     "deps:update": "pnpm update --recursive --interactive",
     "check:all": "turbo run lint typecheck test",
     "check:quick": "turbo run lint typecheck",
-    "check:format": "turbo run lint typecheck && pnpm format:check"
+    "check:format": "turbo run lint typecheck && pnpm format:check",
+    "dev:debug": "turbo run dev -- --inspect"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
