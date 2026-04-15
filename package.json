@@ -42,9 +42,10 @@
   "prettier": {
     "semi": false,
     "singleQuote": true,
-    "printWidth": 100,
+    "printWidth": 120,
     "trailingComma": "all",
     "tabWidth": 2,
-    "bracketSpacing": true
+    "bracketSpacing": true,
+    "arrowParens": "avoid"
   }
 }
