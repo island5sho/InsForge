@@ -46,6 +46,6 @@
     "trailingComma": "all",
     "tabWidth": 2,
     "bracketSpacing": true,
-    "arrowParens": "avoid"
+    "arrowParens": "always"
   }
 }
